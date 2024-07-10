@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio/Natanaelc7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+                <a class="navbar-brand" href="./index.html">Natanael Carvalho dos Santos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center text-white">
+        <h1 class="display-4">Olá, sou Natanael Carvalho dos Santos</h1>
+        <p class="lead">Desenvolvedor Full Stack</p>
+    </header>
+
+    <main class="container">
+        <section id="about" class="my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/perfil.png" alt="" class="img-fluid rounded-circle" srcset="">
+                </div>
+                <div class="col-md-8">
+                    <div class="d-flex flex-column gx-5">
+                        <div class="col p-3">
+                            <h2>Sobre Mim</h2>
+                            <p>Olá! Meu nome é Natanael e sou um Desenvolvedor Full stack com experiência em desenvolvimento web e criação de soluções eficientes e inovadoras. Tenho uma sólida experiência trabalhando com diversas tecnologias e fremeworks, e estou sempre em busca de aprender novas habilidades e  aprimorar minhas capacidades.
+                            </p>
+                        </div>
+                        <div class="col p-3">
+                            <h3>Habilidades Técnicas</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Front-end: HTML, CSS, Javascript, React, Angular</li>
+                                <li class="list-group-item">Back-end: Node.js, Express, Next.js</li>
+                                <li class="list-group-item">Banco de Dados: MongoDB, MySQL, PostgreSQL</li>
+                                <li class="list-group-item">Ferramentas: Git, GitHub, Figma, Canvas</li>
+                            </ul>
+                        </div>
+                        <div class="col p-3">
+                            <h3>Objetivos Profissionais</h3>
+                            <p>
+                                Estou em busca de novas oportunidaes que me permitam aplicar minhas habilidades e contribuir para projetos desafiadores. Meu objetivo é continuar crescendo como desenvolvedor, explorando novas tecnologias em equipes colaborativas.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        <section id="projects" class="container my-5">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Gestão de Tarefas</h5>
+                            <p class="card-text">React, Node.js, Express, MongoDB</p>
+                            <a href="projects/project1.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce de Moda</h5>
+                            <p class="card-text">Vue.js, Laravel, MySQL</p>
+                            <a href="projects/project2.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container my-5">
+            <h2>Enviar sua mensagem</h2>
+            <form id="contact-form" class="my-4" action="https://formspree.io/f/mvgpgpod" method="post">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group my-2">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary my-2">Enviar</button>
+
+            </form>
+            <h2>Contato</h2>
+            <ul class="list-inline list-column">
+                <li class="list-inline-item"><i class="fas fa-envelope p-1"></i><a class="text-decoration-none" href="mailto:natanaelc7@gmail.com">natanaelc7@gmail.com</a></li>
+                <li class="list-inline-item"><i class="fab fa-linkedin p-1"></i><a class="text-decoration-none" href="https://www.linkedin.com/in/natanael-carvalho-dos-santos-879568b7/" target="_blank">Linkedin.com</a></li>
+                <li class="list-inline-item"><i class="fab fa-github p-1"></i><a class="text-decoration-none" href="https://github.com/natanael89/Projeto_onebitflix" target="_blank">GitHub.com</a></li>
+                <li class="list-inline-item"><i class="fab fa-whatsapp p-1" aria-hidden="true"></i><a class="text-decoration-none" href=" http://api.whatsapp.com/send?1=pt_BR&phone=5571986265592" target="_blank">Whatsapp</a></li>
+            </ul> 
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Natanael Carvalho dos Santos. Todos os direitos resevados.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./js/enviar_Email.js" defer></script>
+</body>
+</html>
