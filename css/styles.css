@@ -11,16 +11,21 @@ body {
 
 
 header.jumbotron {
-    background-image: url("https://a.storyblok.com/f/90801/1920x600/d5fcdc8698/code-banner.png/m/");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: .7;
     height: 420px;
     color: #fff;
     padding: 2rem 1rem;
     margin-bottom: 0;
    
+}
+
+/* Estilo CSS para a imagem de fundo */
+.background-image {
+    background-image: url("https://a.storyblok.com/f/90801/1920x600/d5fcdc8698/code-banner.png/m/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
 }
 
 footer {
@@ -29,14 +34,21 @@ footer {
 }
 
 
-
-@media screen and (min-width:320px){
-    header.jumbotron{
-        background-image: url("https://a.storyblok.com/f/90801/1920x600/d5fcdc8698/code-banner.png/m/");
-        background-repeat: no-repeat;
+/* Media queries para telas menores */
+@media (max-width: 768px) {
+    .background-image {
+        background-position: top;
+        height: auto;
         
-        background-position: center;
-        max-width: 100%;
     }
 }
 
+@media (max-width: 320px) {
+    .background-image {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+}
