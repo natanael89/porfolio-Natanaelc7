@@ -1,14 +1,26 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
 }
 
 
 
 header.jumbotron {
-    background: #1b1c1d;
+    background-image: url("https://a.storyblok.com/f/90801/1920x600/d5fcdc8698/code-banner.png/m/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+    height: 420px;
     color: #fff;
     padding: 2rem 1rem;
     margin-bottom: 0;
+   
 }
 
 footer {
@@ -17,4 +29,14 @@ footer {
 }
 
 
+
+@media screen and (min-width:320px){
+    header.jumbotron{
+        background-image: url("https://a.storyblok.com/f/90801/1920x600/d5fcdc8698/code-banner.png/m/");
+        background-repeat: no-repeat;
+        
+        background-position: center;
+        max-width: 100%;
+    }
+}
 
